@@ -23,6 +23,21 @@ a {
     text-decoration: none;
 }
 
+.btn {
+    text-decoration: none;
+    border: none;
+    text-align: center;
+    display: inline-block;
+    width: 186px;
+    line-height: 68px;
+    background: #1ebfc1;
+    box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.05);
+    border-radius: 14px;
+}
+.btn:hover {
+    opacity: 0.9;
+}
+
 /* Header */
 .header {
     padding-top: 52px;
@@ -54,6 +69,7 @@ a {
 .navbar ul li {
     margin-right: 39px;
 }
+
 .navbar ul {
     display: flex;
 }
@@ -64,28 +80,35 @@ a {
     font-weight: 400;
     word-wrap: break-word;
 }
+
 .action {
     margin-left: auto;
 }
 
 .action .btn {
+    color: white;
     text-decoration: none;
     border: none;
     display: inline-block;
 }
 
-.action .sign-up {
-    color: #1ebfc1;
+.action .sign-in {
+    border: none;
+    background: white;
+    color: #494949;
     font-size: 16px;
-    font-weight: 600;
+    font-weight: 400;
     word-wrap: break-word;
-    text-align: center;
-    display: inline-block;
-    min-width: 108px;
-    line-height: 48px;
-    border-radius: 6px;
-    border: 1px #1ebfc1 solid;
 }
+.action .sign-up {
+    border-radius: 6px;
+    border: 1px solid;
+    background: white;
+    color: #1ebfc1;
+    width: 108px;
+    line-height: 48px;
+}
+
 .action .sign-up:hover {
     opacity: 0.9;
     color: white;
@@ -95,4 +118,50 @@ a {
 }
 .action .sign-up {
     margin-left: 24px;
+}
+
+/* hero */
+
+.hero-content .subtitle {
+    color: #767e7e;
+    font-size: 14px;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+.hero-content .title {
+    color: #0d1111;
+    font-size: 62px;
+    font-weight: 700;
+    line-height: 72px;
+    word-wrap: break-word;
+}
+
+.hero-content .desc {
+    color: #9da6a5;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+    word-wrap: break-word;
+}
+
+.hero-content .action {
+    display: flex;
+    align-items: center;
+}
+
+.hero .watch-video:hover {
+    box-shadow: 0px 22px 50px rgba(80, 80, 80, 0.2);
+    cursor: pointer;
+}
+
+.hero .watch-video {
+    width: 62px;
+    height: 62px;
+    margin-left: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    box-shadow: 0px 22px 50px rgba(0, 0, 0, 0.05);
 }
