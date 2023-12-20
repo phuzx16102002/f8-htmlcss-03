@@ -14,7 +14,7 @@ body {
 /* Common */
 .main-content {
     width: 1170px;
-    max-width: calc(100% -48px);
+    max-width: calc(100% - 48px);
     margin-left: auto;
     margin-right: auto;
 }
@@ -122,6 +122,15 @@ a {
 
 /* hero */
 
+.hero-content {
+    margin-top: 143px;
+    margin-right: 136px;
+}
+
+.hero .body {
+    display: flex;
+}
+
 .hero-content .subtitle {
     color: #767e7e;
     font-size: 14px;
@@ -130,6 +139,7 @@ a {
 }
 
 .hero-content .title {
+    margin-top: 18px;
     color: #0d1111;
     font-size: 62px;
     font-weight: 700;
@@ -138,14 +148,17 @@ a {
 }
 
 .hero-content .desc {
+    margin-top: 46px;
     color: #9da6a5;
     font-size: 18px;
     font-weight: 400;
     line-height: 32px;
     word-wrap: break-word;
+    margin-right: 84px;
 }
 
 .hero-content .action {
+    margin-top: 52px;
     display: flex;
     align-items: center;
 }
@@ -165,3 +178,144 @@ a {
     border-radius: 50%;
     box-shadow: 0px 22px 50px rgba(0, 0, 0, 0.05);
 }
+
+.hero-image {
+    margin-top: 50px;
+}
+
+.hero .hero-image .img {
+    width: 576px;
+    height: 631px;
+    object-fit: cover;
+    position: relative;
+}
+
+.hero .courses::before {
+    width: 28px;
+    height: 4px;
+    background: #fff;
+    border-radius: 4px;
+    display: inline-block;
+    content: "";
+    position: absolute;
+    top: 45px;
+    left: 29px;
+}
+
+.hero .hero-image .courses img {
+    height: 40px;
+    width: 36px;
+    margin-top: 17px;
+    margin-left: 25px;
+}
+
+.hero .hero-image {
+    position: relative;
+}
+
+.courses {
+    right: 459px;
+    bottom: 407px;
+    position: absolute;
+}
+
+.hero .hero-image .courses {
+    width: 157px;
+    height: 75px;
+    background: #fefefd;
+    box-shadow: 0px 10px 80px rgba(0, 0, 0, 0.05);
+    border-radius: 18px;
+    display: flex;
+}
+
+.hero-image .image .courses {
+    margin-top: 149px;
+}
+
+.hero .hero-image .title {
+    color: #0d1111;
+    font-size: 10px;
+    font-weight: 500;
+    word-wrap: break-word;
+    width: 55px;
+    height: 30px;
+    margin-left: 16px;
+    margin-top: 22px;
+}
+
+.hero .hero-image .scheduels-box {
+    width: 124px;
+    height: 132px;
+    text-align: center;
+    background: white;
+    box-shadow: 0px 10px 80px rgba(0, 0, 0, 0.05);
+    border-radius: 24px;
+    display: inline-block;
+}
+
+.scheduels-box {
+    right: 517px;
+    bottom: 46px;
+    position: absolute;
+}
+
+.hero-image .scheduels-box span {
+    color: #0d1111;
+    font-size: 10px;
+    font-weight: 500;
+    word-wrap: break-word;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.hero-image .scheduels-box:nth-of-type(2) {
+    margin-top: 12px;
+}
+
+.hero-image .scheduels-box:nth-of-type(3) {
+    margin-top: 10px;
+}
+
+.hero .hero-image .student-info {
+    width: 207px;
+    height: 90px;
+    background: #fefefd;
+    box-shadow: 0px 12px 80px rgba(0, 0, 0, 0.05);
+    border-radius: 24px;
+}
+
+.hero-image .student-info .title {
+    color: #0d1111;
+    font-size: 10px;
+    font-weight: 500;
+    word-wrap: break-word;
+    width: 100px;
+    margin-top: 17px;
+    margin-left: 35px;
+}
+
+.student-info {
+    right: 45px;
+    bottom: 41px;
+    position: absolute;
+}
+
+.student-info .item-3 a {
+    display: flex;
+}
+
+.student-info .item-3 img {
+    width: 33px;
+    height: 33px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-left: -13px;
+    margin-top: 8px;
+    display: flex;
+}
+
+.student-info .item-3 img:first-of-type {
+    margin-left: 35px;
+}
+
+
